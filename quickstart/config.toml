@@ -16,5 +16,5 @@ title = "My New Hugo Site"
     name = "getting started"
     post = "<span class='alert'>New!</span>"
     pre = "<i class='fa fa-road'></i>"
-    url = "/getting-started/"
+    url = "/geting-started/"
     weight = -100
