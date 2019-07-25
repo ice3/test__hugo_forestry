@@ -2,19 +2,15 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 theme = "ananke"
 title = "My New Hugo Site"
-
-[menu]
-
-  [[menu.main]]
-    identifier = "about"
-    name = "about hugo"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/about/"
-    weight = -110
-
-  [[menu.main]]
-    name = "getting started"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/geting-started/"
-    weight = -100
+[[menu.main]]
+name = "getting started"
+post = "<span class='alert'>New!</span>"
+pre = "<i class='fa fa-road'></i>"
+url = "/geting-started/"
+weight = 2
+[[menu.main]]
+identifier = "about"
+name = "about hugo"
+pre = "<i class='fa fa-heart'></i>"
+url = "/about/"
+weight = 1
