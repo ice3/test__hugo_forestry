@@ -18,3 +18,5 @@ fields:
 - type: text
   name: description
   label: description
+pages:
+- quickstart/content/posts/my-seconf-post.md
