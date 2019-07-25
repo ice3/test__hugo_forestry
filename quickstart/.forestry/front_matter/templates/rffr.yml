@@ -1,10 +1,17 @@
 ---
 label: rffr
-hide_body: false
+hide_body: true
+display_field: title
 fields:
 - type: text
   name: title
   label: title
+- name: type
+  type: text
+  config:
+    required: false
+  label: type
+  default: blog_post
 - type: datetime
   name: date
   label: date
