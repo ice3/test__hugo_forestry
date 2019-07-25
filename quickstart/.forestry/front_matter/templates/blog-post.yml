@@ -2,11 +2,12 @@
 label: blog post
 hide_body: false
 fields:
-- name: titre
+- name: title
   type: text
   config:
     required: false
   label: titre
+  description: La titre de la post
 - name: description
   type: textarea
   default: ''
@@ -16,3 +17,12 @@ fields:
     schema:
       format: markdown
   label: description
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
