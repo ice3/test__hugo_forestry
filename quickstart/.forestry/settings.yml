@@ -17,7 +17,7 @@ sections:
   path: quickstart/content/post
   label: posts
   create: all
-  match: "**/*"
+  match: "*"
 upload_dir: quickstart/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
